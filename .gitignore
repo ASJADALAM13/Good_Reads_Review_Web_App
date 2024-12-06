@@ -1,0 +1,51 @@
+# Python files
+*.py[cod]
+__pycache__/
+*.so
+
+# Virtual environment
+myenv/
+
+# Django files
+db.sqlite3
+*.log
+
+# Environment variables
+.env
+*.env
+
+# Static and Media files (if generated during deployment)
+staticfiles/
+media/
+
+# IDE/Editor settings
+.vscode/
+.idea/
+
+# Byte-compiled files
+*.pyc
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test coverage reports
+htmlcov/
+.coverage
+*.cover
+.hypothesis/
+
+# Build files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Node.js dependencies (if applicable)
+node_modules/
+
+# Temporary files
+*.swp
+*.swo
+*.bak
